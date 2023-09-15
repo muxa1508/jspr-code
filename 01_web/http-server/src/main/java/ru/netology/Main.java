@@ -40,7 +40,7 @@ public class Main {
             continue;
           }
 
-          final var filePath = Path.of(".", "public", path);
+          final var filePath = Path.of(".", "01_web\\http-server\\public", path);
           final var mimeType = Files.probeContentType(filePath);
 
           // special case for classic
